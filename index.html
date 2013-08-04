@@ -52,7 +52,18 @@
   <style>
     img.fullscreen{width:80%; height:80%; border:none;}
   </style>
-  
+  <script type="text/javascript">
+$(document).ready(function() {
+     // Set the variable $width to the width of our wrapper on page load
+     $width = $('#head1').width();
+     // Target all images inside the #content. This works best if you want to ignore certain images that are part of the layout design
+     $('#head1 img').css({
+          // Using jQuery CSS we write the $width variable we previously specified as a pixel value. We use max-width incase the image is smaller than our viewport it won't scale it larger. Don't forget to set height to auto or else it will squish your photos.
+          'max-width' : $width , 'height' : 'auto'
+          });
+     });
+</script>
+
 </head>
 <body>
 
