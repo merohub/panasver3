@@ -1,6 +1,10 @@
 .ui-mobile .ui-page {
     background : transparent;
 }
-.ui-body-d, .ui-overlay-d {border: none;}
+#head1 .ui-body-d {border: none;}
 
-.ui-body-d, .ui-overlay-d {background: none;}
+#head1 h2{}
+
+.ui-body-d, .ui-overlay-d {border: none; }
+
+.ui-body-d, .ui-overlay-d {background: none; margin-left: -40px;}
