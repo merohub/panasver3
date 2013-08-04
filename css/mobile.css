@@ -1,26 +1,3 @@
-
-/*
-* Mobilize 1.3.0 
-*
-* See Themeforest for licensing info: bit.ly/J1pmCc
-*
-* By Mike Ilsley - BeantownDesign.com
-*
-*/
-
-/* =============================================================================
-   Load Fonts (delete import of fonts you don't use)
-   ========================================================================== */
-
-@import url(http://fonts.googleapis.com/css?family=Kaushan+Script); /* font-family: 'Kaushan Script', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Lobster); /* font-family: 'Lobster', cursive; */
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,700); /* font-family: 'Cabin', sans-serif; font-weight: 400; */
-@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911); /* font-family: 'Goudy Bookletter 1911', serif; */
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,700italic,600); /* font-family: 'Crimson Text', serif; */
-@import url(http://fonts.googleapis.com/css?family=Cardo:400,700); /* font-family: 'Cardo', serif; */
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic,700); /* font-family: 'Droid Serif', serif; */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700); /* font-family: 'Droid Sans', sans-serif; */
-
    
 /* =============================================================================
    Custom content styling
@@ -180,10 +157,11 @@ hr.ornamental2 {
 
 .ui-body-c,
 .ui-dialog.ui-overlay-c {
-	border: 1px solid #B3B3B3;
+	
 	/* background:url(../images/page-backgrounds/diagonal-noise.jpg) 0 0; background-size: 100px 100px; */
 	/* background:url(../images/page-backgrounds/zebra.jpg) 0 0; background-size: 121px 38px; */
-	 background:url(../images/page-backgrounds/paper.jpg) 0 0; background-size: 500px 593px;  
+	/* background:url(../images/noisy2.jpg) 0 0; background-size: 100% 100%;  */
+	
 	/* background:url(../images/page-backgrounds/farmer.jpg) 0 0; background-size: 349px 349px; */
 	/* background:url(../images/page-backgrounds/blue-stripes.jpg) 0 0; background-size: 100px 100px; */
 	/* background:url(../images/page-backgrounds/texture.jpg) 0 0; background-size: 476px 476px; */
@@ -191,7 +169,7 @@ hr.ornamental2 {
 	/* background:url(../images/page-backgrounds/grilled.jpg) 0 0; background-size: 170px 180px;  */
 	/* background:url(../images/page-backgrounds/wood.jpg) 0 0; background-size: 203px 317px; */
 	color: #111;
-	text-shadow: 0 1px 0 #fff;
+
 }
 
 .ui-body-c,
@@ -241,7 +219,7 @@ hr.ornamental2 {
 
 .ui-btn-up-c {
 	border: 1px solid #111;
-	background: #4B000F;
+	background: #1f1c1b;
 	font-weight: bold;
 	color: #fff !important;
 	text-shadow:  0 1px 1px #111;
@@ -253,7 +231,7 @@ hr.ornamental2 {
 
 .ui-btn-hover-c {
 	border: 1px solid #000;
-	background: #560817;
+	background: #4e4e4e;
 	font-weight: bold;
 	color: #f7eabb !important;
 	text-shadow:  0 1px 1px #000;
@@ -265,7 +243,7 @@ hr.ornamental2 {
 
 .ui-btn-down-c {
 	border: 1px solid  #000;
-	background: #34070f;
+	background: #848382;
 	font-weight: bold;
 	color:  #f7eabb;
 	text-shadow:  0 1px 1px #000;
@@ -291,7 +269,7 @@ hr.ornamental2 {
 
 .ui-btn-active {
 	border: 1px solid #111;
-	background: #34070f;
+	background: #848382;
 	font-weight: bold;
 	color:#f7eabb;
 	cursor: pointer;
@@ -327,7 +305,7 @@ hr.ornamental2 {
 
 h2.pageTitle { 
 	text-transform:uppercase; 
-	background:url(../images/pattern.png) #4B000F; background-size: 5px 5px;
+	background:url(../images/pattern.png) #1f1c1b; background-size: 5px 5px;
 	border-bottom:1px solid #aaa;
 	color:#f7eabb; 
 	width:100%; 
@@ -570,7 +548,7 @@ li.ui-li-divider {
 
 .ui-btn-hover-b {
 	border: 1px solid #000;
-	background: #560817;
+	background: #4e4e4e;
 	font-weight: bold;
 	color: 	#fff;
 	text-shadow: 0  -1px 1px  #014D68;
@@ -583,7 +561,7 @@ li.ui-li-divider {
 
 .ui-btn-down-b {
 	border: 1px solid #333;
-	background: #34070f;
+	background: #848382;
 	font-weight: bold;
 	color: 	#fff;
 	text-shadow: 0 -1px 1px #225377;
