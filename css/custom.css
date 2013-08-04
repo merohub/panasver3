@@ -1,3 +1,6 @@
 .ui-mobile .ui-page {
     background : transparent;
 }
+.ui-body-d, .ui-overlay-d {border: none;}
+
+.ui-body-d, .ui-overlay-d {background: none;}
